@@ -1,0 +1,35 @@
+
+.mainFooter {
+    margin-top: 200px;
+    background-color: #18185e;
+}
+.footerIcon {
+    border: 1px solid white;
+    padding: 7px;
+    margin: 3px;
+    font-size: 8px;
+}
+.homeFooter {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+}
+.footerTitle {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.footerTitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    transition: width 0.3s ease-in-out;
+}
+
+.footerTitle:hover::after {
+    width: 50%;
+}

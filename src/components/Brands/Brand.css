@@ -1,0 +1,18 @@
+.Brands {
+   border-bottom: 1px solid #d4dcff;
+   z-index: 10;
+   .brand-text {
+         margin: 10px;
+         font-weight: 700;
+         font-size: 1.4em;
+      }
+   .brand-slider {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+   justify-content: center;
+}  
+
+}
+
+

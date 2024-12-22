@@ -1,0 +1,52 @@
+.profile-card {
+    position: relative;
+    width: 175px;
+    height: 230px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.profile-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #1d2671;
+    padding: 15px;
+    color: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    border-top-right-radius: 14px;
+    z-index: 2;
+}
+
+.profile-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.profile-role {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.share-icon {
+    position: absolute;
+    color: white;
+    right: 15px;
+    bottom: 50px;
+    background-color: var(--primary-color);
+    padding: 4px;
+
+    border-radius: 50%;
+    font-size: 0.4em !important;
+    z-index: 3;
+}

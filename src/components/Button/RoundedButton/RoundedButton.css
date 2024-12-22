@@ -1,0 +1,24 @@
+.RoundedButton {
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 0.8em !important;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    .icon {
+        margin-left: 8px;
+    }
+}
+
+.RoundedButton:hover {
+    opacity: 0.8;
+}
+@media (max-width: 1123px) {
+
+    .RoundedButton {
+            font-size: 0.7em;
+    }
+}

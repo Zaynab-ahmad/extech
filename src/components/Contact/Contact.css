@@ -1,0 +1,22 @@
+.contact {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  bottom: -110px; 
+ 
+}
+.contact {
+  background-image: url(/Images/ctaShape1_1.webp);
+  background-size: 40%;
+  background-position: right;
+  background-repeat: no-repeat;
+  
+
+}
+@media (max-width: 768px) {
+  .contact {
+      background-size: 50%;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+}
+

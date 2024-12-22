@@ -1,0 +1,121 @@
+.AboutNavBar {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  box-shadow: none;
+}
+
+.scrolled {
+  background-color: rgba(146, 146, 146, 0.824);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 80px;
+  margin-left: 90%;
+}
+.aboutRightSide {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 10px !important;
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  background-color: var(--primary-color);
+  position: relative;
+}
+.arrow-right {
+  position: absolute;
+  right: 100%;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 3cap solid transparent;
+  overflow: hidden;
+  border-right: 30px solid var(--primary-color);
+  transform: rotate(-3deg);
+}
+
+.aboutNavBtn {
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 8px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.aboutNavBtn:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.message-icon {
+  margin-right: 10px;
+  width: 70px;
+  left: 0;
+  top: 15px;
+}
+.smallNavIcon {
+  display: none;
+}
+.navbar-toggle {
+  border: none;
+}
+
+.navbar-toggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+  }
+
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+    display: block;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .aboutSmallScreenIcons {
+    display: flex;
+    width: 45px;
+    justify-content: space-between;
+  }
+
+  .aboutRightSide,
+  .message-icon {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 15%;
+  }
+  .smallNavIcon {
+    display: block;
+  }
+}

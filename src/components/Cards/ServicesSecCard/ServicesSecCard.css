@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap');
+
+.servicesSecCardTitle {
+    font-family: "Stoke", serif;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+    transition: -webkit-text-stroke-color 0.3s ease;
+}
+
+.servicesSecCardTitle:hover {
+    -webkit-text-stroke-color: white;
+    /* Stroke color on hover (white) */
+}

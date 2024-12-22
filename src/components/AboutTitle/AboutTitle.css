@@ -1,0 +1,10 @@
+.teamMembersTitle {
+    flex: 1;
+    text-align: left;
+}
+
+.teamMembersButton {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
